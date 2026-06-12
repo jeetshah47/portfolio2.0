@@ -1,8 +1,9 @@
 "use server"
 
 import { db } from "@/lib/db"
-import { LeadStatus } from "@prisma/client"
 import { revalidatePath } from "next/cache"
+
+type LeadStatus = "NEW" | "READ" | "REPLIED" | "ARCHIVED"
 import { auth } from "@/lib/auth"
 import { redirect } from "next/navigation"
 

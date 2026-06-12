@@ -1,6 +1,7 @@
 import { db } from "@/lib/db"
-import { LeadStatus } from "@prisma/client"
 import Link from "next/link"
+
+type LeadStatus = "NEW" | "READ" | "REPLIED" | "ARCHIVED"
 import { Badge } from "@/components/ui/badge"
 import { formatDistanceToNow } from "date-fns"
 

@@ -1,7 +1,8 @@
 import { db } from "@/lib/db"
 import { notFound } from "next/navigation"
-import { LeadStatus } from "@prisma/client"
 import { updateLeadStatus, updateLeadNotes, deleteLead } from "@/actions/leads"
+
+type LeadStatus = "NEW" | "READ" | "REPLIED" | "ARCHIVED"
 import { Badge } from "@/components/ui/badge"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
