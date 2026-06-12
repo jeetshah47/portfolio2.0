@@ -1,8 +1,8 @@
 import { db } from "@/lib/db"
 import Link from "next/link"
+import { Badge } from "@/components/ui/badge"
 
 type LeadStatus = "NEW" | "READ" | "REPLIED" | "ARCHIVED"
-import { Badge } from "@/components/ui/badge"
 import { formatDistanceToNow } from "date-fns"
 
 const statusColors: Record<LeadStatus, string> = {
