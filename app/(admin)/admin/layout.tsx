@@ -2,7 +2,7 @@ import { auth } from "@/lib/auth"
 import { redirect } from "next/navigation"
 import Link from "next/link"
 import { signOut } from "@/lib/auth"
-import { LayoutDashboard, Users, LogOut } from "lucide-react"
+import { Users, LogOut } from "lucide-react"
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
   const session = await auth()

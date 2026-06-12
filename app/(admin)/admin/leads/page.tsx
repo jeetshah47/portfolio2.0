@@ -1,6 +1,5 @@
 import { db } from "@/lib/db"
 import Link from "next/link"
-import { Badge } from "@/components/ui/badge"
 import { formatDistanceToNow } from "date-fns"
 
 type LeadStatus = "NEW" | "READ" | "REPLIED" | "ARCHIVED"

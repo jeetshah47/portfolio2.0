@@ -2,7 +2,6 @@
 
 import { db } from "@/lib/db"
 import { sendLeadNotification } from "@/lib/resend"
-import { revalidatePath } from "next/cache"
 
 export type ContactFormState = {
   success: boolean

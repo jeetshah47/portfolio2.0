@@ -1,7 +1,6 @@
 import { db } from "@/lib/db"
 import { notFound } from "next/navigation"
 import { updateLeadStatus, updateLeadNotes, deleteLead } from "@/actions/leads"
-import { Badge } from "@/components/ui/badge"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Link from "next/link"
@@ -42,10 +41,6 @@ export default async function LeadDetailPage({ params }: Props) {
           <Select
             name="status"
             defaultValue={lead.status}
-            onValueChange={async (val) => {
-              "use server"
-              // handled client-side via separate form action below
-            }}
           >
             <SelectTrigger className="w-36">
               <SelectValue />
