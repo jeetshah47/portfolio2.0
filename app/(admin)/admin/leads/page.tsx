@@ -1,9 +1,11 @@
 import { db } from "@/lib/db"
 import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
+import { formatDistanceToNow } from "date-fns"
 
 type LeadStatus = "NEW" | "READ" | "REPLIED" | "ARCHIVED"
-import { formatDistanceToNow } from "date-fns"
+
+type Lead = { id: string; name: string; email: string; subject: string | null; message: string; status: LeadStatus; notes: string | null; createdAt: Date; updatedAt: Date }
 
 const statusColors: Record<LeadStatus, string> = {
   NEW: "bg-blue-500/10 text-blue-500 border-blue-500/20",
@@ -13,7 +15,7 @@ const statusColors: Record<LeadStatus, string> = {
 }
 
 export default async function LeadsPage() {
-  const leads = await db.lead.findMany({ orderBy: { createdAt: "desc" } })
+  const leads = await db.lead.findMany({ orderBy: { createdAt: "desc" } }) as Lead[]
 
   const counts = {
     total: leads.length,
