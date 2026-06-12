@@ -1,5 +1,3 @@
-import { Navbar } from "@/components/sections/navbar"
-import { Footer } from "@/components/sections/footer"
 import { HeroSection } from "@/components/sections/hero"
 import { AboutSection } from "@/components/sections/about"
 import { SkillsSection } from "@/components/sections/skills"
@@ -10,16 +8,12 @@ import { ContactSection } from "@/components/sections/contact"
 export default function HomePage() {
   return (
     <>
-      <Navbar />
-      <main>
-        <HeroSection />
-        <AboutSection />
-        <SkillsSection />
-        <ExperienceSection />
-        <ProjectsSection />
-        <ContactSection />
-      </main>
-      <Footer />
+      <HeroSection />
+      <AboutSection />
+      <SkillsSection />
+      <ExperienceSection />
+      <ProjectsSection />
+      <ContactSection />
     </>
   )
 }
