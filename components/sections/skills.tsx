@@ -47,7 +47,7 @@ const skillGroups = [
 
 export function SkillsSection() {
   return (
-    <section id="skills" className="py-28 px-6 relative">
+    <section id="skills" className="relative z-10 py-28 px-6">
       {/* Subtle background glow */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
         <div className="w-[800px] h-[400px] rounded-full bg-primary/3 blur-[100px]" />

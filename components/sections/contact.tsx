@@ -31,7 +31,7 @@ export function ContactSection() {
   }, [state])
 
   return (
-    <section id="contact" className="py-28 px-6 relative">
+    <section id="contact" className="relative z-10 py-28 px-6">
       <div className="absolute inset-0 flex items-end justify-center pointer-events-none">
         <div className="w-[500px] h-[300px] rounded-full bg-primary/5 blur-[100px] mb-0" />
       </div>

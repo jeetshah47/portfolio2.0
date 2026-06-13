@@ -17,7 +17,7 @@ export function ProjectsSection() {
   const rest = projects.filter((p) => !p.featured)
 
   return (
-    <section id="projects" className="py-28 px-6 relative">
+    <section id="projects" className="relative z-10 py-28 px-6">
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
         <div className="w-[600px] h-[400px] rounded-full bg-primary/3 blur-[120px]" />
       </div>

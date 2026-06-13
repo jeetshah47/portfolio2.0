@@ -57,7 +57,7 @@ const experience = [
 
 export function ExperienceSection() {
   return (
-    <section id="experience" className="py-28 px-6">
+    <section id="experience" className="relative z-10 py-28 px-6">
       <div className="max-w-4xl mx-auto">
 
         {/* Section label */}

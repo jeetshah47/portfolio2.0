@@ -5,29 +5,13 @@ import { motion } from "framer-motion"
 import { ArrowDown } from "lucide-react"
 import { GithubIcon, LinkedinIcon } from "@/components/icons"
 import { CalButton } from "@/components/cal-button"
-import { DottedGlowBackground } from "@/components/ui/dotted-glow-background"
 
 const badges = ["Go", "React", "Next.js", "Node.js", "AWS", "TypeScript"]
 const aiTools = ["Cursor", "Claude", "GitHub Copilot", "OpenAI API", "v0"]
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-16 overflow-hidden">
-
-      {/* Animated dotted glow background */}
-      <DottedGlowBackground
-        gap={28}
-        radius={1.5}
-        color="rgba(168, 85, 247, 0.15)"
-        darkColor="rgba(168, 85, 247, 0.25)"
-        glowColor="rgba(168, 85, 247, 0.7)"
-        darkGlowColor="rgba(168, 85, 247, 0.9)"
-        opacity={0.7}
-        backgroundOpacity={0}
-        speedMin={0.3}
-        speedMax={0.9}
-        speedScale={1}
-      />
+    <section className="relative z-10 min-h-screen flex flex-col items-center justify-center px-6 pt-16 overflow-hidden">
 
       {/* Radial glow */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">

@@ -20,7 +20,7 @@ const info = [
 
 export function AboutSection() {
   return (
-    <section id="about" className="py-28 px-6">
+    <section id="about" className="relative z-10 py-28 px-6">
       <div className="max-w-6xl mx-auto">
 
         {/* Section label */}
