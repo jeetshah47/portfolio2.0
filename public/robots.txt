@@ -7,7 +7,7 @@ User-agent: *
 Disallow: /admin
 
 # Host
-Host: http://localhost:3000
+Host: https://www.jsdeveloper.cloud
 
 # Sitemaps
-Sitemap: http://localhost:3000/sitemap.xml
+Sitemap: https://www.jsdeveloper.cloud/sitemap.xml

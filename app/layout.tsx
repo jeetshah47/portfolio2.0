@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/sonner"
 import { PostHogProvider } from "@/components/posthog-provider"
 import { PostHogPageview } from "@/components/posthog-pageview"
 import { ThemeProvider } from "@/components/theme-provider"
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 const outfit = Outfit({
@@ -112,6 +113,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Toaster />
           </PostHogProvider>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )
