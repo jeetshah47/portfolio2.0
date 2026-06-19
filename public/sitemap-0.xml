@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>http://localhost:3000</loc><lastmod>2026-06-12T10:58:12.205Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/contact</loc><lastmod>2026-06-12T10:58:12.205Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/projects</loc><lastmod>2026-06-12T10:58:12.205Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/projects/ar-13</loc><lastmod>2026-06-12T10:58:12.205Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/projects/artificium</loc><lastmod>2026-06-12T10:58:12.205Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/projects/crm-hub</loc><lastmod>2026-06-12T10:58:12.205Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/projects/heckto</loc><lastmod>2026-06-12T10:58:12.205Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/projects/meeko-go</loc><lastmod>2026-06-12T10:58:12.205Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/projects/phoenix-lei-portal</loc><lastmod>2026-06-12T10:58:12.205Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/projects/ssit-equitywala</loc><lastmod>2026-06-12T10:58:12.205Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/projects/womb-atlas</loc><lastmod>2026-06-12T10:58:12.205Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000</loc><lastmod>2026-06-12T12:18:04.660Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/contact</loc><lastmod>2026-06-12T12:18:04.660Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/projects</loc><lastmod>2026-06-12T12:18:04.660Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/projects/ar-13</loc><lastmod>2026-06-12T12:18:04.660Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/projects/artificium</loc><lastmod>2026-06-12T12:18:04.660Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/projects/crm-hub</loc><lastmod>2026-06-12T12:18:04.660Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/projects/heckto</loc><lastmod>2026-06-12T12:18:04.660Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/projects/meeko-go</loc><lastmod>2026-06-12T12:18:04.660Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/projects/phoenix-lei-portal</loc><lastmod>2026-06-12T12:18:04.660Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/projects/ssit-equitywala</loc><lastmod>2026-06-12T12:18:04.661Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/projects/womb-atlas</loc><lastmod>2026-06-12T12:18:04.661Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>
